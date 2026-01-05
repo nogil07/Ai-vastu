@@ -105,7 +105,9 @@ export default function VastuForm() {
                 vastu_level: formData.vastu_preference
             };
 
-            const response = await axios.post("http://localhost:8001/generate-design", payload);
+            // Use environment variable for API URL or default to localhost
+            const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8001";
+            const response = await axios.post(`${apiUrl}/generate-design`, payload);
             setResult(response.data);
         } catch (error) {
             console.error("Generation failed:", error);
