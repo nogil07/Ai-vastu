@@ -1,0 +1,101 @@
+{
+  "zones": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "rules": {
+    "kitchen": {
+      "preferred": [
+        "SE"
+      ],
+      "allowed": [
+        "NW"
+      ],
+      "avoid": [
+        "NE",
+        "SW"
+      ]
+    },
+    "master_bedroom": {
+      "preferred": [
+        "SW"
+      ],
+      "avoid": [
+        "NE"
+      ]
+    },
+    "pooja_room": {
+      "preferred": [
+        "NE"
+      ],
+      "avoid": [
+        "SE",
+        "SW"
+      ]
+    },
+    "bathroom": {
+      "allowed": [
+        "NW",
+        "SE"
+      ],
+      "avoid": [
+        "NE",
+        "SW"
+      ]
+    },
+    "living_room": {
+      "preferred": [
+        "NE",
+        "E",
+        "N"
+      ]
+    },
+    "staircase": {
+      "preferred": [
+        "S",
+        "W",
+        "SW"
+      ],
+      "avoid": [
+        "NE"
+      ]
+    },
+    "dining_area": {
+      "preferred": [
+        "W",
+        "E"
+      ],
+      "avoid": [
+        "SW"
+      ]
+    },
+    "bedroom": {
+      "preferred": [
+        "NW",
+        "W"
+      ],
+      "allowed": [
+        "S"
+      ],
+      "avoid": [
+        "NE"
+      ]
+    },
+    "parking": {
+      "preferred": [
+        "NW",
+        "SE"
+      ],
+      "avoid": [
+        "NE",
+        "SW"
+      ]
+    }
+  }
+}

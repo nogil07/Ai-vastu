@@ -1,0 +1,29 @@
+{
+  "plot": {
+    "length": 40,
+    "width": 30,
+    "unit": "ft",
+    "shape": "rectangle",
+    "facing": "east"
+  },
+  "building": {
+    "floors": "G+1",
+    "building_type": "independent_house"
+  },
+  "rooms": {
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "kitchen": true,
+    "living_room": true,
+    "dining_area": true,
+    "pooja_room": true,
+    "parking": true
+  },
+  "vastu_level": "high",
+  "design": {
+    "style": "modern",
+    "layout_type": "open-plan",
+    "natural_lighting": "high",
+    "visualization": "2D"
+  }
+}
